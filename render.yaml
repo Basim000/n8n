@@ -30,6 +30,9 @@ services:
       # encrypted with the previous value.
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
+      - key: N8N_USER_MANAGEMENT_DISABLED
+        generateValue: true
+        
 
       # These automatically populate connection details 
       # for the Render Postgres database defined below
