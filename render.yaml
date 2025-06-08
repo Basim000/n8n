@@ -31,7 +31,7 @@ services:
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
       - key: N8N_USER_MANAGEMENT_DISABLED
-        generateValue: true
+        Value: true
         
 
       # These automatically populate connection details 
